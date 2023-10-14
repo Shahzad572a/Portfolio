@@ -205,7 +205,7 @@ import project1 from '../assets/project1.png'
         },
       ],
       image: project1,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Shahzad572a/OnShopi",
     },
     {
       name: "Portfolio",
@@ -226,7 +226,7 @@ import project1 from '../assets/project1.png'
         },
       ],
       image: project2,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Shahzad572a/Portfolio",
     },
     
   ];
