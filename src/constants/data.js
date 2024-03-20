@@ -1,4 +1,4 @@
- 
+   
 import react from '../assets/react.svg'
 import nodejs from '../assets/nodejs.svg'
 import web from '../assets/web.png'
@@ -14,8 +14,12 @@ import mongodb from '../assets/mongodb.jpg'
 import github from '../assets/github.png'
 import figma from '../assets/figma.png' 
 import threejs from '../assets/threejs.png'
-import project2 from '../assets/project 2.png'
+import project2 from '../assets/project2.png'
 import project1 from '../assets/project1.png'
+import task1 from '../assets/task1.png'
+import task2 from '../assets/task2.png'
+
+
 
 
 
@@ -93,6 +97,10 @@ import project1 from '../assets/project1.png'
       icon: react,
     },
     
+    {
+      name: "Next JS",
+      icon: react,
+    },
     
     {
       name: "Node JS",
@@ -106,10 +114,7 @@ import project1 from '../assets/project1.png'
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+     
     {
       name: "git",
       icon: github,
@@ -125,11 +130,11 @@ import project1 from '../assets/project1.png'
    
     
     {
-      title: "Full stack Developer",
+      title: "MERN Stack Developer",
       company_name: "FYB",
       icon: onshopi,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Jul 2023",
+      date: "DEC 2022 - Jun 2023",
       points: [
         "The project on OnShopi, an eCommerce platform built with the MERN stack, aimed to provide a seamless online shopping experience for customers and store owners.",
          "The project involved designing the user interface with React and Bootstrap, implementing the backend with Node.js, Express.js, and MongoDB",
@@ -138,20 +143,18 @@ import project1 from '../assets/project1.png'
       ],
     },
 
-    // {
-    //   title: "React.js Developer",
-    //   company_name: "Potfolio",
-    //   icon: logo,
-    //   iconBg: "#383E56",
-    //   date: "Oct 2023 - Nov 2023",
-    //   points: [
-    //     "Welcome to my portfolio, a dynamic showcase of my work as a web developer.",
-    //     " This website is a testament to my proficiency in React.js, Tailwind CSS, and Three.js.",
-    //      "As you navigate through the pages, you'll find a comprehensive 'About Me' section that provides insights into my background and interests.",
-    //      " The 'Work' page highlights my most notable projects, offering a glimpse of my skills in action. ",
-    //      "Lastly, the 'Contact' page provides a means to get in touch with me. Feel free to explore and reach out; I'm excited to connect and discuss potential collaborations."
-    //   ],
-    // },
+    {
+      title: "MERN Stack Developer",
+      company_name: "SAS Technology",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "Sep 2023 - Dec 2023",
+      points: [
+        "I completed a 3-month internship at SAS Technology, where I mastered dynamic application development using the MERn Stack (MongoDB, Express.js, React.js, Node.js). ",
+        "This included frontend and backend development, JWT and bcrypt for authentication, Socket.IO for real-time communication, and implementing features like file uploading, card sorting, pagination, and search functionality."
+        
+      ],
+    },
   ];
   
   // const testimonials = [
@@ -228,6 +231,54 @@ import project1 from '../assets/project1.png'
       image: project2,
       source_code_link: "https://github.com/Shahzad572a/Portfolio",
     },
+
+    {
+      name: "Event",
+      description:
+        "'Event Management' using Next.js and Strapi, which includes features like user authentication, efficient CRUD operations, search functionality, pagination, and page routing. proficiency in Next.js and Strapi,",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "strapi",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "page routing",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: task2,
+      source_code_link: "https://github.com/Shahzad572a/React-task",
+    },
+
+    {
+      name: "Task 1",
+      description:
+        "Task involving fetching user data, implementing search functionality with filtering options for both male and female users, pagination for efficient navigation, and displaying detailed user information.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: task1,
+      source_code_link: "https://github.com/Shahzad572a/React-task",
+    },
     
   ];
   
@@ -238,5 +289,7 @@ import project1 from '../assets/project1.png'
 
 
 
+
+  
 
   
